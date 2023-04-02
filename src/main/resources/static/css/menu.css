@@ -37,7 +37,8 @@ nav ul li a{
   color: #fff;
   padding: 40px;
   
-}.header {
+}
+header {
 
 
 
@@ -83,7 +84,6 @@ text-align: center;
     background-color:#3182F4;
 }
 #piePagina {
-    background-color: #10134A;;
     text-align: center;
     color: white;
     height: 20px;
@@ -91,4 +91,46 @@ text-align: center;
     bottom: 0;
     left: 0;
     width: 100%;
+}
+
+
+h3{
+    margin: 0 auto;
+    width: 94%;
+    padding-top: 32px;
+    text-align: center;
+}
+
+footer{
+      background: #34416B;
+      text-align: center;
+      text-transform: uppercase;
+      color:#A0D7F5
+      
+}
+
+footer li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+}
+
+.sociales a{
+    background: #FFFFFF;
+    padding: 15px;
+    border-radius: 100px;
+    display: flex;
+    font-size: 25px;
+    
+}
+
+.sociales a:hover{
+    color:#3182F4;
+}
+
+.footer-copyright{
+    background-color: #10134A;
+    color: #FFFFFF;
+    padding: 15px;
+    margin-top: 30px;
 }
