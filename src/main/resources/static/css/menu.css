@@ -38,12 +38,6 @@ nav ul li a{
   padding: 40px;
   
 }
-header {
-
-
-
-}
-
 .fondo {
         background-image: url(images/fondo.png);
         border-radius: 4px;
@@ -69,14 +63,16 @@ header {
 }
 
 .boton-promo {
-display: inline-block;
-display: block;
-position: relative;
-border: none;
-padding: 14px 28px;
-background-color: #59F2FF;
-color: #10134A;
-text-align: center;
+    background-color: #59F2FF;
+    color: #10134A;
+    padding: 8px;
+    width: 115px;
+    outline: none;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    text-align: center;
 
 }
 
@@ -112,7 +108,7 @@ footer{
 footer li{
     list-style: none;
     display: inline-block;
-    margin: 10px;
+    margin: 15px;
 }
 
 .sociales a{
@@ -134,3 +130,122 @@ footer li{
     padding: 15px;
     margin-top: 30px;
 }
+
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat scroll center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    
+    
+}
+
+.carousel-item::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #000;
+    opacity: 0.4;
+}
+
+.carousel-caption {
+    bottom: 180px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.carousel-caption h5{
+    font-size: 80px;
+    font-weight: 700;
+    
+}
+.carousel-caption p{
+    font-size: 18px;
+    top: 2rem;
+}
+
+
+.promo-btn {
+  
+    background-color: #59F2FF;
+    display: inline-block;
+    position: relative;
+    border: none;
+    padding: 14px 20px;
+    background-color: #59F2FF;
+    color: #10134A;
+    text-align: center;
+    
+}
+
+.cabina-btn{
+    background-color: #59F2FF;
+    display: inline-block;
+    position: relative;
+    border: none;
+    padding: 14px 20px;
+    background-color: #59F2FF;
+    color: #10134A;
+    text-align: center;
+}
+
+.galeria-btn{
+    background-color: #59F2FF;
+    display: inline-block;
+    position: relative;
+    border: none;
+    padding: 14px 20px;
+    background-color: #59F2FF;
+    color: #10134A;
+    text-align: center;
+}
+
+.contactar-btn{
+    background-color: #59F2FF;
+    display: inline-block;
+    position: relative;
+    border: none;
+    padding: 14px 20px;
+    background-color: #59F2FF;
+    color: #10134A;
+    text-align: center;
+}
+
+.isesion-btn {
+    background-color: #59F2FF;
+    display: inline-block;
+    position: relative;
+    border: none;
+    padding: 14px 20px;
+    background-color: #59F2FF;
+    color: #10134A;
+    text-align: center;
+}
+
+.registrar-btn{
+    background-color: #59F2FF;
+    display: inline-block;
+    position: relative;
+    border: none;
+    padding: 14px 20px;
+    background-color: #59F2FF;
+    color: #10134A;
+    text-align: center;
+}
+
+.reservar-btn {
+    background-color: #59F2FF;
+    display: inline-block;
+    position: relative;
+    border: none;
+    padding: 14px 20px;
+    background-color: #59F2FF;
+    color: #10134A;
+    text-align: center;
+}
+
